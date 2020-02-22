@@ -1,0 +1,37 @@
+---
+title: "Curso Mineria de Datos"
+author: "Frans van Dunné"
+date: "2/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ejercicio Sesion 1
+
+Busca y lee documentacion sobre estos tres procesos:
+
+- KDD
+- SEMMA
+- CRISP-DM
+
+para preparar la continuación de la discusión en clase. 
+
+Para entregar la asignacion incluye los URL de los documentos que leiste aqui abajo:
+
+## KDD
+- Titulo 1 - URL 1
+- Titulo 2 - URL 2
+etc.
+
+## SEMMA
+- Titulo 1 - URL 1
+- Titulo 2 - URL 2
+etc.
+
+## CRISP-DM
+- Titulo 1 - URL 1
+- Titulo 2 - URL 2
+etc.
