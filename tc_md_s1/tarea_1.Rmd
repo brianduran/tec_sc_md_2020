@@ -1,8 +1,9 @@
 ---
-title: "Curso Mineria de Datos"
-author: "Frans van Dunné"
-date: "2/22/2020"
+title: "Minería de Datos: Tarea 1"
+author: "Brian Durán"
 output: html_document
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -22,16 +23,13 @@ para preparar la continuación de la discusión en clase.
 Para entregar la asignacion incluye los URL de los documentos que leiste aqui abajo:
 
 ## KDD
-- Titulo 1 - URL 1
-- Titulo 2 - URL 2
-etc.
+- [KDD, semma and CRISP-DM: A parallel overview](https://www.researchgate.net/publication/220969845_KDD_semma_and_CRISP-DM_A_parallel_overview)
+- [What is Data Mining and KDD](https://machinelearningmastery.com/what-is-data-mining-and-kdd/)
 
 ## SEMMA
-- Titulo 1 - URL 1
-- Titulo 2 - URL 2
-etc.
+- [KDD, semma and CRISP-DM: A parallel overview](https://www.researchgate.net/publication/220969845_KDD_semma_and_CRISP-DM_A_parallel_overview)
+- [Introduction to SEMMA](https://documentation.sas.com/?docsetId=emref&docsetTarget=n061bzurmej4j3n1jnj8bbjjm1a2.htm&docsetVersion=14.3&locale=en)
 
 ## CRISP-DM
-- Titulo 1 - URL 1
-- Titulo 2 - URL 2
-etc.
+- [KDD, semma and CRISP-DM: A parallel overview](https://www.researchgate.net/publication/220969845_KDD_semma_and_CRISP-DM_A_parallel_overview)
+- [What is the CRISP-DM methodology?](https://www.sv-europe.com/crisp-dm-methodology/)
