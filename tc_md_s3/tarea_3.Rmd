@@ -1,0 +1,28 @@
+---
+title: "Curso Mineria de Datos"
+author: "Frans van Dunné"
+date: "3/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ejercicio Sesion 3
+
+En el curso mostramos el ejemplo de un Data Warehouse en SQL Server. Compartimos la carpeta donde estan los backups de las bases de datos:
+
+ - BI_SA
+ - BI_DW
+ - BI
+
+y un proyecto 
+
+ - IntegrationBI 
+
+Que muetra ejemplos de los ETL correspondientes.
+
+Vuelve a cargar las base de datos y levanta el ejemplo para poder correr el ejemplo.
+
+Dejamos esta tarea como instructiva y de ilustración. Solo necesitas enviar una confirmación que trabajaste con el ejemplo para profundizar la teoria.
