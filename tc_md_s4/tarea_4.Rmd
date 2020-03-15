@@ -1,0 +1,18 @@
+---
+title: "Curso Mineria de Datos"
+author: "Frans van Dunné"
+date: "2/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ejercicio Sesion 4
+
+Mira nuevamente los tres casos de exito con los que trabajamos en la clase 1. 
+
+En cual de estos casos tendria sentido proponer un Lago de Datos a la par del Datawarehouse? Para que? Porque no seria optimo hacer lo que propones en el datawarehouse.
+
+Envia tu discusión en un breve documento (no mas de una pagina).
