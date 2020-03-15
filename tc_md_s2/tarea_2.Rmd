@@ -1,0 +1,24 @@
+---
+title: "Curso Mineria de Datos"
+author: "Frans van Dunné"
+date: "2/29/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ejercicio Sesion 2
+
+### Un caso de éxito de CRM: Amazon
+
+Jeff Bezos fue su fundador en 1994. Comenzó como una librería en línea que ofrecía libros en Estados Unidos y otros 45 países. Gracias a sus negocios virtuales pudo ofrecer 4 veces más de lo que una librería tradicional ofrecía por esos tiempos. 
+
+Según la American Consumer Association, Amazon tuvo un 88% de clientes satisfechos con el servicio proporcionado, en los años 2002 y 2003, una cifra altísima para una empresa de servicios que no trata cara a cara con los cliente
+
+Amazon contempla su éxito estratégico en la adopción de los medios digitales, puesto ve en ellos un canal más efectivo para llegar a muchos más clientes de forma más rápida. 
+
+Así mismo establece que por medio del mundo digital se podría ofrecer muchos más productos que en forma física, y es un hecho, puesto que en el mundo virtual las fronteras de las bodegas de almacenaje no existen metafóricamente hablando
+
+En una breve nota discute: cual de los procesos KDD, SEMMA y CRISP-DM mejor aplican a cada uno de los casos. En otras palabras ¿cual usarian ustedes para ejecutar la asignación?
