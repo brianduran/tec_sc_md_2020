@@ -10,7 +10,7 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Ejercicio Sesion 1
+## Ejercicio Sesión 1
 
 Busca y lee documentacion sobre estos tres procesos:
 
