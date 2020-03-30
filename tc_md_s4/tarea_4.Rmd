@@ -1,8 +1,9 @@
 ---
-title: "Curso Mineria de Datos"
-author: "Frans van Dunné"
-date: "2/22/2020"
+title: "Minería de Datos: Tarea 4"
+author: "Brian Durán"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -11,8 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Ejercicio Sesion 4
 
-Mira nuevamente los tres casos de exito con los que trabajamos en la clase 1. 
+<p align="justify">
+Mira nuevamente los tres casos de exito con los que trabajamos en la clase 1. En cual de estos casos tendria sentido proponer un Lago de Datos a la par del Datawarehouse? Para que? Porque no seria optimo hacer lo que propones en el datawarehouse. Envia tu discusión en un breve documento (no mas de una pagina).
+</p>
 
-En cual de estos casos tendria sentido proponer un Lago de Datos a la par del Datawarehouse? Para que? Porque no seria optimo hacer lo que propones en el datawarehouse.
+## Justificación
 
-Envia tu discusión en un breve documento (no mas de una pagina).
+<p align="justify">
+Creo que el caso de Amazon es el mas adecuado para la implementación de un data lake junto a un data warehouse, debido a que los usuarios de esta aplicación hacen consultas todos los días sobre lo que pasa en ella y además de forma masiva, por lo que tener toda la información necesaria alcenada de forma estructura es esencial. Pero además, Amazon se beneficia de la información generada por sus usuarios a lo largo del Internet de distintas formas y medios, datos no estructuros e información cruda, que es utilizada para hacer análisis más profundos sobre las tendencias del mercado. 
+</p>
