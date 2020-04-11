@@ -1,0 +1,21 @@
+---
+title: "Curso Mineria de Datos"
+author: "Frans van Dunné"
+date: "2/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ejercicio Sesión 5
+
+Durante la sesión 5 hablamos sobre los criterios y pasos para crear un lago de datos. Vimos que hay una multitud de tecnologías disponibles, cada una con su puntos a favor y en contra, dependiendo del contexto dentro del cual queremos implementar un lago de datos.
+
+Para bajar lo aprendido a tierra y profundizar en la parte practica de la implementación de lagos de datos, describe brevemente cual serian tus consideraciones, y cual seria tu recomendación para la implementación de un lago de datos para las siguientes aplicaciones.
+
+ 1. Una organización necesita reunir bitácoras (logs) de una flota de robots, donde cada robot emite 7 logs diferentes, provenientes de diferentes sistemas dentro del robot.
+ 2. Una organización quiere reunir datos sobre sus usuarios en un punto central para resguardarlo para uso futuro, y comenzar a hacer análisis. Los datos son provenientes de diferentes sistemas y servicios: EL CRM, Facebook, Twitter, y grabaciones de llamados del centro del servicio al cliente.
+
+Envía tu discusión en un breve documento (no mas de una pagina, en total: uno o dos párrafos por cada uno de los dos casos).
