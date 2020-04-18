@@ -19,5 +19,5 @@ Mira nuevamente los tres casos de exito con los que trabajamos en la clase 1. En
 ## Justificación
 
 <p align="justify">
-Creo que el caso de Amazon es el mas adecuado para la implementación de un data lake junto a un data warehouse, debido a que los usuarios de esta aplicación hacen consultas todos los días sobre lo que pasa en ella y además de forma masiva, por lo que tener toda la información necesaria alcenada de forma estructura es esencial. Pero además, Amazon se beneficia de la información generada por sus usuarios a lo largo del Internet de distintas formas y medios, datos no estructuros e información cruda, que es utilizada para hacer análisis más profundos sobre las tendencias del mercado. 
+Creo que el caso de Amazon es el mas adecuado para la implementación de un data lake junto a un data warehouse, debido a que los usuarios de esta aplicación hacen consultas todos los días sobre lo que pasa en la misma y además de forma masiva, por lo que tener toda la información necesaria alcenada de forma estructura es esencial. Pero además, Amazon se beneficia de la información generada por sus usuarios a lo largo del Internet de distintas formas y medios, datos no estructuros e información cruda, que es utilizada para hacer análisis más profundos sobre las tendencias del mercado. 
 </p>

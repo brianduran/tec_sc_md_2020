@@ -47,7 +47,7 @@ Después de analizar los procesos nuevamente, puede verse que comparten muchas i
 <br>
 
 <p align="justify">
-Creo que un buena metodología para este caso de Amazon, sería CRISP-DM, ya que las otras 2 se definen como procesos linealos, mientras que CRIPS-DM puede iterar las veces que sean necesarios si en el proceso de evalucación se determina que no se obtuvo el resultado deseado.
+Creo que un buena metodología para este caso de Amazon, sería CRISP-DM, ya que las otras 2 se definen como procesos lineales, mientras que CRIPS-DM puede iterar las veces que sean necesarias si en el proceso de evalucación se determina que no se obtuvo el resultado deseado.
 </p>
 
 ![Diagrama del proceso CRISP-DM](CRISP-DM_Process_Diagram.png)
