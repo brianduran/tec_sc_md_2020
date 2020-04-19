@@ -1,8 +1,9 @@
 ---
-title: "Curso Mineria de Datos"
-author: "Frans van Dunné"
-date: "2/22/2020"
+title: "Minería de Datos: Tarea 5"
+author: "Brian Durán"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -11,11 +12,45 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Ejercicio Sesión 5
 
+<p align="justify">
 Durante la sesión 5 hablamos sobre los criterios y pasos para crear un lago de datos. Vimos que hay una multitud de tecnologías disponibles, cada una con su puntos a favor y en contra, dependiendo del contexto dentro del cual queremos implementar un lago de datos.
+</p>
 
+<p align="justify">
 Para bajar lo aprendido a tierra y profundizar en la parte practica de la implementación de lagos de datos, describe brevemente cual serian tus consideraciones, y cual seria tu recomendación para la implementación de un lago de datos para las siguientes aplicaciones.
+</p>
 
- 1. Una organización necesita reunir bitácoras (logs) de una flota de robots, donde cada robot emite 7 logs diferentes, provenientes de diferentes sistemas dentro del robot.
- 2. Una organización quiere reunir datos sobre sus usuarios en un punto central para resguardarlo para uso futuro, y comenzar a hacer análisis. Los datos son provenientes de diferentes sistemas y servicios: EL CRM, Facebook, Twitter, y grabaciones de llamados del centro del servicio al cliente.
+<p align="justify">
+ 1. Una organización necesita reunir bitácoras (logs) de una flota de robots, donde
+ cada robot emite 7 logs diferentes, provenientes de diferentes sistemas dentro del
+ robot.
+</p>
+<p align="justify">
+ 2. Una organización quiere reunir datos sobre sus usuarios en un punto central para
+ resguardarlo para uso futuro, y comenzar a hacer análisis. Los datos son provenientes
+ de diferentes sistemas y servicios: EL CRM, Facebook, Twitter, y grabaciones de
+ llamados del centro del servicio al cliente.
+</p>
+
 
 Envía tu discusión en un breve documento (no mas de una pagina, en total: uno o dos párrafos por cada uno de los dos casos).
+
+<br>
+
+### Implementación
+
+<br>
+
+#### Caso 1
+
+<p align="justify">
+Esta sugerencia es basada en el hecho que la organización mencionada no tenga un budget muy limitado, en caso de ser así, sería necesario buscar una opción alternativa. Para la recolección de información propongo usar Airflow como el "scheduler", el cual se encargará de ejecutar la procesos necesarios para iniciar la recolección de información en un periodo de tiempo de terminado, puede ser diaramente o semanalmente dependiendo de la cantidad de datos generados por día. Recomendaría usar Python como lenguaje para crear todo el código a cargo de parsear la información y guardarla en una base de datos ya que es un lenguaje sencillo, con una curva de aprendizaje pequeña y que se especializa en el manejo de datos. La ejecución del código la haría por medio de AWS EKS, ya que permite desarrollar una infraestructura escalable con Kubernetes y cada proceso podría ejecutar de forma isolada en un contenedor de Docker (o cualquier otra tecnología similar) con los recursos que se necesiten utilizando un "scaling group". Por último recomendaría utilizar AWS S3 como lago de datos para almacenar los logs, ya que provee un servicio muy económico y de fácil acceso.
+</p>
+
+
+#### Caso 2
+
+<p align="justify">
+Mi sugerencia para el caso 2 es la misma que la mencionada en el caso 1, ya que desde mi punto de vista, son situaciones muy similares y la única diferencia que noto, es el origen de los datos. Es cierto que en este escenario, los datos provienen de fuentes distintas, mientras que en el primer caso, todos los datos provienen de un mismo punto, los logs generados por los robots, pero eso solo implicaría un cambio en el código en Python para especificar de donde se necesitan obtener los datos.
+</p>
+

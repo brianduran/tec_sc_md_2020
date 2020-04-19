@@ -1,8 +1,9 @@
 ---
-title: "Curso Mineria de Datos"
-author: "Frans van Dunné"
-date: "3/6/2020"
+title: "Minería de Datos: Tarea 3"
+author: "Brian Durán"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -26,3 +27,15 @@ Que muetra ejemplos de los ETL correspondientes.
 Vuelve a cargar las base de datos y levanta el ejemplo para poder correr el ejemplo.
 
 Dejamos esta tarea como instructiva y de ilustración. Solo necesitas enviar una confirmación que trabajaste con el ejemplo para profundizar la teoria.
+
+
+### Ejecución del proyecto
+
+Para comenzar, mencionaré que no fui capaz de correr el proyecto, intenté utilizar Microsoft Visual Studio 2010, 2015 y 2019, pero al intentar cargar el proyecto con cualquiera de estas versiones, obtuve siempre el mismo resultado, sin importar cuantas dependencias instalara:
+
+![](no_compatible.PNG)
+
+
+Por lo tanto, tomando en cuenta la sugerencia mencionada por el profesor en la clase 7, decidí ver el siguiente video donde se explica el proceso que se llevó a cabo en este proyecto:
+https://www.youtube.com/watch?v=2oItzU-tuLA
+
